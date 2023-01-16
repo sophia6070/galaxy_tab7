@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap');
 
 * {
   box-sizing: border-box;
@@ -17,7 +17,7 @@ ul {
 
 body {
   color: #111;
-  font-family: "Nanum Gothic", sans-serif;
+  font-family: 'Nanum Gothic', sans-serif;
 }
 
 .container {
@@ -66,16 +66,16 @@ body {
 }
 
 .slide_container {
-  background-color: #f5f5f5;
+  background-color: #0000;
 }
 
 .slide {
   width: 1200px;
   margin: 0 auto;
   height: 500px;
-  background-image: url("../images/slide_bg.png");
+  background-image: url('../images/갤럭시.webp');
   background-repeat: no-repeat;
-  background-position: center right 30px;
+  background-position: center right 20px;
   position: relative;
 }
 
@@ -108,7 +108,7 @@ body {
 }
 
 .buttons .btn_01::after {
-  content: "";
+  content: '';
   width: 100%;
   height: 1px;
   background-color: #666;
@@ -234,13 +234,14 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  cursor: pointer;
 }
 
 /* product_02 */
 
 /* .big_banner */
 .big_banner {
-  background-image: url("../images/big_banner.jpg.png");
+  background-image: url('../images/big_banner.jpg.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -327,6 +328,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  cursor: pointer;
 }
 
 /* blog */
@@ -361,13 +363,13 @@ body {
 }
 
 .blog ul li:nth-child(1) {
-  background-image: url("../images/blog_01.png");
+  background-image: url('../images/blog_01.png');
 }
 .blog ul li:nth-child(2) {
-  background-image: url("../images/blog_02.png");
+  background-image: url('../images/blog_02.png');
 }
 .blog ul li:nth-child(3) {
-  background-image: url("../images/blog_03.png");
+  background-image: url('../images/blog_03.png');
 }
 /* blog */
 
