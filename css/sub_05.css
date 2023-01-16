@@ -7,11 +7,7 @@
   margin: 0 auto;
   height: 500px;
   position: relative;
-}
-
-.slide img {
-  width: 1200px;
-  height: 500px;
+  background-image: url('../images/acc.webp');
 }
 
 .slide .text {
@@ -24,11 +20,6 @@
 
 .slide .text h1 {
   font-size: 60px;
-}
-
-.slide .text p {
-  font-size: 20px;
-  margin-top: 10px;
 }
 
 .banner {
