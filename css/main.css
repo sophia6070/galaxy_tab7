@@ -41,6 +41,10 @@ body {
   padding: 0 30px;
   line-height: 80px;
 }
+
+.nav ul li a:hover{
+  text-decoration: underline;
+}
 .nav ul li a.on {
   color: red;
 }
