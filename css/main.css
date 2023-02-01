@@ -42,7 +42,7 @@ body {
   line-height: 80px;
 }
 
-.nav ul li a:hover{
+.nav ul li a:hover {
   text-decoration: underline;
 }
 .nav ul li a.on {
@@ -77,7 +77,7 @@ body {
   width: 1200px;
   margin: 0 auto;
   height: 500px;
-  background-image: url('../images/갤럭시.webp');
+  background-image: url('../images/galaxy.webp');
   background-repeat: no-repeat;
   background-position: center;
   position: relative;
